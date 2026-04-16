@@ -7,4 +7,5 @@ public interface LoginRepository {
     void delete(String id);
     Login update(Login login);
     Login findById(String id);
+    Login findByUsername(String username);
 }
